@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+#winter::after {
+    content: "❄️ ";
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+#summer::after {
+    content: "😎";
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+#night::after {
+    content: "🌝";
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+#day::after {
+    content: "🌞";
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+#birthday::after {
+    content: "🎂";
+    font-size: 1.2em;
+}
+label {
+  display: block;
+  margin-bottom: 8px; /* Optional spacing between lines */
+}
+a {
+  color: white; 
+  text-decoration: underline; 
+}
+
+/* Hovered link */
+a:hover {
+  color: #ff4500; /* Orange-red */
+}
+
+/* Visited link */
+a:visited {
+  color: lightgray; 
+}
